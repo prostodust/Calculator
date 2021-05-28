@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Calculator test suite" parallel="tests" thread-count="2">
+    <test name="Sum">
+        <classes>
+            <class name="tests.SumTest"/>
+        </classes>
+    </test>
+    <test name="Difference">
+        <classes>
+            <class name="tests.DifferenceTest"/>
+        </classes>
+    </test>
+    <test name="Division">
+        <classes>
+            <class name="tests.DivisionTest"/>
+        </classes>
+    </test>
+    <test name="Multiplication">
+        <classes>
+            <class name="tests.MultiplicationTest"/>
+        </classes>
+    </test>
+</suite>
